@@ -5,7 +5,7 @@ import streamlit as st
 import io
 
 
-df = pd.read_csv("exam.csv")
+df = pd.read_csv("exam.csv", index_col=0)
 
 
 st.title('CREDIT CARD ANALYSIS')
